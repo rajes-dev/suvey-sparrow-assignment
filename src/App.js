@@ -1,13 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import RatingBreakdown from './ratingBreakdownAnalysis/ratingChart';
 
 function App() {
   
   return (
-    <div className="App">
+    <div>
   
-  <h1>survey sparrow</h1>
-    
+ 
+    <RatingBreakdown/>
       
     </div>
   );
